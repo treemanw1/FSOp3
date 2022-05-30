@@ -9,6 +9,7 @@ morgan.token('type', function (req, res) {return JSON.stringify(req.body)})
 app.use(morgan('tiny'))
 app.use(morgan(':type'))
 app.use(express.static('build'))
+app.use(cors())
 
 let persons = [
     { 
