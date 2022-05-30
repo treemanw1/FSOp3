@@ -6,6 +6,18 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "steph",
-    "number": 1
+    "name": "stephen",
+    "number": 123123
+}
+###
+GET https://powerful-thicket-34283.herokuapp.com/api/persons
+###
+DELETE https://powerful-thicket-34283.herokuapp.com/api/persons/6359
+###
+POST https://powerful-thicket-34283.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+    "name": "stephen",
+    "number": 123123
 }
