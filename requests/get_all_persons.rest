@@ -12,7 +12,7 @@ Content-Type: application/json
 ###
 GET https://powerful-thicket-34283.herokuapp.com/api/persons
 ###
-DELETE https://powerful-thicket-34283.herokuapp.com/api/persons/6359
+DELETE https://powerful-thicket-34283.herokuapp.com/api/persons/6074
 ###
 POST https://powerful-thicket-34283.herokuapp.com/api/persons
 Content-Type: application/json
